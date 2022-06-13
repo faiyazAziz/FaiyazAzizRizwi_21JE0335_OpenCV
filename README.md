@@ -1,15 +1,7 @@
 # FaiyazAzizRizwi_21JE0335_OpenCV
 
 This project is about pasting Aruco marker(of specified id) on the square that is present in the image CVtask.jpg file.
-The Aruco is to be pasted as follows:
-               |-------------------------|----------------------|
-               |    colour of square     |       Marker ID      |
-               |-------------------------|----------------------|
-               |        green            |           1          |
-               |        orange           |           2          |
-               |        black            |           3          |
-               |        pink peach       |           4          |
-               |-------------------------|----------------------|
+
 
 For this I written a python script using opencv library in which i defined four function which are as:-
     1) rotate()   :-This funtion is created to rotate the aruco marker so that it can be cropped.
